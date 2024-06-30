@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4rem;
+    gap: 10px;
+    border-radius: 10px;
+    max-width: 25rem;
+    height: 4.7rem;
+    overflow: hidden;
+    margin-top: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.side{
+    width: 10px;
+    height: 100%;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.content h1{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+.content button{
+    height: 2.7rem;
+    width: 5rem;
+    border-radius: 5px;
+}
